@@ -1,0 +1,1176 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/angel.depaz/ontologies/2023/3/Wine_classification_rating"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/angel.depaz/ontologies/2023/3/Wine_classification_rating">
+    <Prefix name="" IRI="http://www.semanticweb.org/angel.depaz/ontologies/2023/3/Wine_classification_rating/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="author angel de paz toldrà"></Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>WIne classification ontology that includes the average rating of the reviews</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>@license GPL</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Wine classification rating</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Acidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AffordableWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgingClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AverageRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BestValueWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crianza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpensiveWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GranReserva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrapeType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighRatedWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumberOfReviews"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reserva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Review"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roble"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoseWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemiCrianza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sparkling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SparklingWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vintage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VintageYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Winery"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToCountry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToWinery"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgingClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGrapeType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReview"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVintage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWineCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWineColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWineRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producesWine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAcidityValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBodyValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumberOfReviews"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWineName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isSparkling"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#yearValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BodegaNumanthia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crianza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garnatxa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montsant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tempranillo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Termanthia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TuroDenMota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Unico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VInoVinaElPison"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VinsDelSilenci"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#White"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Acidity"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasAcidityValue"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Body"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasBodyValue"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Color"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Red"/>
+            <NamedIndividual IRI="#Rose"/>
+            <NamedIndividual IRI="#White"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RedWine"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasWineColor"/>
+            <NamedIndividual IRI="#Red"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RoseWine"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasWineColor"/>
+            <NamedIndividual IRI="#Rose"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sparkling"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#isSparkling"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SparklingWine"/>
+        <DataHasValue>
+            <DataProperty IRI="#isSparkling"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WhiteWine"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasWineColor"/>
+            <NamedIndividual IRI="#White"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Wine"/>
+        <ObjectIntersectionOf>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#hasGrapeType"/>
+                <Class IRI="#GrapeType"/>
+            </ObjectMinCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasWineColor"/>
+                <Class IRI="#Color"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WineRegion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongsToCountry"/>
+            <Class IRI="#Country"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WineRegion"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#belongsToCountry"/>
+            <Class IRI="#Country"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acidity"/>
+        <Class IRI="#WineCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AffordableWine"/>
+        <Class IRI="#WineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AverageRating"/>
+        <Class IRI="#Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BestValueWine"/>
+        <Class IRI="#WineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Body"/>
+        <Class IRI="#WineCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Color"/>
+        <Class IRI="#WineCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crianza"/>
+        <Class IRI="#AgingClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpensiveWine"/>
+        <Class IRI="#WineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flavour"/>
+        <Class IRI="#WineCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GranReserva"/>
+        <Class IRI="#AgingClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighRatedWine"/>
+        <Class IRI="#WineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joven"/>
+        <Class IRI="#AgingClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumberOfReviews"/>
+        <Class IRI="#Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedWine"/>
+        <Class IRI="#WineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reserva"/>
+        <Class IRI="#AgingClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roble"/>
+        <Class IRI="#AgingClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoseWine"/>
+        <Class IRI="#WineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemiCrianza"/>
+        <Class IRI="#AgingClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling"/>
+        <Class IRI="#WineCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SparklingWine"/>
+        <Class IRI="#WineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugar"/>
+        <Class IRI="#WineCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VintageYear"/>
+        <Class IRI="#Vintage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteWine"/>
+        <Class IRI="#WineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WineType"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#RedWine"/>
+        <Class IRI="#RoseWine"/>
+        <Class IRI="#WhiteWine"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="#AgingClassification"/>
+        <Class IRI="#Crianza"/>
+        <Class IRI="#GranReserva"/>
+        <Class IRI="#Joven"/>
+        <Class IRI="#Reserva"/>
+        <Class IRI="#Roble"/>
+        <Class IRI="#SemiCrianza"/>
+    </DisjointUnion>
+    <ClassAssertion>
+        <Class IRI="#Winery"/>
+        <NamedIndividual IRI="#BodegaNumanthia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crianza"/>
+        <NamedIndividual IRI="#Crianza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GrapeType"/>
+        <NamedIndividual IRI="#Garnatxa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Joven"/>
+        <NamedIndividual IRI="#Joven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineRegion"/>
+        <NamedIndividual IRI="#Montsant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Red"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Rose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GrapeType"/>
+        <NamedIndividual IRI="#Tempranillo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineRegion"/>
+        <NamedIndividual IRI="#Toro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#White"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#producesWine"/>
+        <NamedIndividual IRI="#BodegaNumanthia"/>
+        <NamedIndividual IRI="#Termanthia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWineRegion"/>
+        <NamedIndividual IRI="#Spain"/>
+        <NamedIndividual IRI="#Montsant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWineRegion"/>
+        <NamedIndividual IRI="#Spain"/>
+        <NamedIndividual IRI="#Toro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToRegion"/>
+        <NamedIndividual IRI="#Termanthia"/>
+        <NamedIndividual IRI="#Toro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToWinery"/>
+        <NamedIndividual IRI="#Termanthia"/>
+        <NamedIndividual IRI="#BodegaNumanthia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgingClassification"/>
+        <NamedIndividual IRI="#Termanthia"/>
+        <NamedIndividual IRI="#Crianza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWineColor"/>
+        <NamedIndividual IRI="#Termanthia"/>
+        <NamedIndividual IRI="#Red"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <NamedIndividual IRI="#Toro"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWineColor"/>
+        <NamedIndividual IRI="#TuroDenMota"/>
+        <NamedIndividual IRI="#White"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgingClassification"/>
+        <NamedIndividual IRI="#Unico"/>
+        <NamedIndividual IRI="#Crianza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWineColor"/>
+        <NamedIndividual IRI="#VInoVinaElPison"/>
+        <NamedIndividual IRI="#Red"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrapeType"/>
+        <NamedIndividual IRI="#VinsDelSilenci"/>
+        <NamedIndividual IRI="#Garnatxa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWineColor"/>
+        <NamedIndividual IRI="#VinsDelSilenci"/>
+        <NamedIndividual IRI="#Red"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAcidityValue"/>
+        <NamedIndividual IRI="#Termanthia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBodyValue"/>
+        <NamedIndividual IRI="#Termanthia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#Termanthia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2814.16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Termanthia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearValue"/>
+        <NamedIndividual IRI="#Termanthia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isSparkling"/>
+        <NamedIndividual IRI="#TuroDenMota"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearValue"/>
+        <NamedIndividual IRI="#TuroDenMota"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAcidityValue"/>
+        <NamedIndividual IRI="#Unico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#VInoVinaElPison"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#VInoVinaElPison"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWineName"/>
+        <NamedIndividual IRI="#VInoVinaElPison"/>
+        <Literal>Vino de Mesa el Pison</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrice"/>
+        <NamedIndividual IRI="#VinsDelSilenci"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#VinsDelSilenci"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWineName"/>
+        <NamedIndividual IRI="#VinsDelSilenci"/>
+        <Literal>Ssssshhhhh</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#belongsToWinery"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAgingClassification"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasWineColor"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToCountry"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToRegion"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToWinery"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAgingClassification"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGrapeType"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReview"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVintage"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineCharacteristic"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineColor"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineRegion"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <Class IRI="#WineRegion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#producesWine"/>
+        <Class IRI="#Winery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToCountry"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToRegion"/>
+        <Class IRI="#WineRegion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToWinery"/>
+        <Class IRI="#Winery"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgingClassification"/>
+        <Class IRI="#AgingClassification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGrapeType"/>
+        <Class IRI="#GrapeType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReview"/>
+        <Class IRI="#Review"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVintage"/>
+        <Class IRI="#Vintage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineCharacteristic"/>
+        <Class IRI="#WineCharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineColor"/>
+        <Class IRI="#Color"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineRegion"/>
+        <Class IRI="#WineRegion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#producesWine"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isSparkling"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasWineName"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAcidityValue"/>
+        <Class IRI="#Acidity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasBodyValue"/>
+        <Class IRI="#Body"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumberOfReviews"/>
+        <Class IRI="#NumberOfReviews"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrice"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRating"/>
+        <Class IRI="#AverageRating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWineName"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isSparkling"/>
+        <Class IRI="#Sparkling"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#yearValue"/>
+        <Class IRI="#VintageYear"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAcidityValue"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasBodyValue"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumberOfReviews"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrice"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRating"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWineName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isSparkling"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#yearValue"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#HighRatedWine"/>
+                <Variable IRI="urn:swrl:var#wine"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#AffordableWine"/>
+                <Variable IRI="urn:swrl:var#wine"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#BestValueWine"/>
+                <Variable IRI="urn:swrl:var#wine"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasPrice"/>
+                <Variable IRI="urn:swrl:var#wine"/>
+                <Variable IRI="urn:swrl:var#price"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#price"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#ExpensiveWine"/>
+                <Variable IRI="urn:swrl:var#wine"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasPrice"/>
+                <Variable IRI="urn:swrl:var#wine"/>
+                <Variable IRI="urn:swrl:var#price"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#price"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#AffordableWine"/>
+                <Variable IRI="urn:swrl:var#wine"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasRating"/>
+                <Variable IRI="urn:swrl:var#wine"/>
+                <Variable IRI="urn:swrl:var#rating"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#rating"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#HighRatedWine"/>
+                <Variable IRI="urn:swrl:var#wine"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Acidity</IRI>
+        <Literal>Wine acidity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AgingClassification</IRI>
+        <Literal>Vintage aging classification of the spanish wines.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AverageRating</IRI>
+        <Literal>Average rating of total reviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Body</IRI>
+        <Literal>Texture, consistency of the wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Color</IRI>
+        <Literal>Wine color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Country</IRI>
+        <Literal>Country where the wine is produced</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Country</IRI>
+        <Literal>https://dbpedia.org/property/country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crianza</IRI>
+        <Literal>2 years for red wines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Flavour</IRI>
+        <Literal>Flavor and taste felling of the wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GranReserva</IRI>
+        <Literal>5 years for red. 3 years for whites and roses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GrapeType</IRI>
+        <Literal>Type of grape (Variety)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Joven</IRI>
+        <Literal>No aging in barrel, current vintage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfReviews</IRI>
+        <Literal>Number of total reviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RedWine</IRI>
+        <Literal>Red wines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reserva</IRI>
+        <Literal>4 years for reds. 2 years for white and roses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Review</IRI>
+        <Literal>Wine review</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Roble</IRI>
+        <Literal>around 9 months</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoseWine</IRI>
+        <Literal>Roses wines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SemiCrianza</IRI>
+        <Literal>around 9 months</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sparkling</IRI>
+        <Literal>If the wine has bubbles or not</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SparklingWine</IRI>
+        <Literal>Sparkling wines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#SparklingWine</IRI>
+        <Literal>https://dbpedia.org/page/Sparkling_wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sugar</IRI>
+        <Literal>Residual sugar after fermentation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vintage</IRI>
+        <Literal>Vintatge wine classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VintageYear</IRI>
+        <Literal>Year of vintage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WhiteWine</IRI>
+        <Literal>White wines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wine</IRI>
+        <Literal>Wine super class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Wine</IRI>
+        <Literal>http://dbpedia.org/resource/Wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineCharacteristic</IRI>
+        <Literal>Wine main characteristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineRegion</IRI>
+        <Literal>Region where the wine is produced</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineType</IRI>
+        <Literal>A type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Winery</IRI>
+        <Literal>Winery that produces the wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Winery</IRI>
+        <Literal>http://dbpedia.org/resource/Winery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#belongsToCountry</IRI>
+        <Literal>in which country wine is produced</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#belongsToRegion</IRI>
+        <Literal>from which region the wine is (DO)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#belongsToWinery</IRI>
+        <Literal>winery who produces the wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAcidityValue</IRI>
+        <Literal>acidity value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAgingClassification</IRI>
+        <Literal>vintage aging classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasBodyValue</IRI>
+        <Literal>body value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasGrapeType</IRI>
+        <Literal>grape from which the wine is made of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNumberOfReviews</IRI>
+        <Literal>number of wine reviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPrice</IRI>
+        <Literal>price of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRating</IRI>
+        <Literal>wine rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasVintage</IRI>
+        <Literal>vintage of rthe wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineCharacteristic</IRI>
+        <Literal>Main wine characteristics </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineColor</IRI>
+        <Literal>Wine Color (main characteristic)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineName</IRI>
+        <Literal>Wine presentation name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineRegion</IRI>
+        <Literal>A country has one or more wine regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isLocatedIn</IRI>
+        <Literal>Wine region belongs to a country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isSparkling</IRI>
+        <Literal>Is sparkling wine?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#producesWine</IRI>
+        <Literal>wine produced by a winery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#yearValue</IRI>
+        <Literal>vintage year</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
